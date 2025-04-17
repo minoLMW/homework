@@ -1,0 +1,70 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  background: #c7c4c6;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 60%;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#todoList {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#todoList li {
+  background: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#todoList li span {
+  flex: 1;
+}
+
+#todoList li button {
+  margin-left: 5px;
+  background-color: #2196f3;
+}
+
+#todoList li button:hover {
+  background-color: #0b7dda;
+}
+
+#todoList li button:last-child {
+  background-color: #f44336;
+}
+
+#todoList li button:last-child:hover {
+  background-color: #da190b;
+}
